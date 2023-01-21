@@ -25,5 +25,9 @@
       text-align: center;
       padding: 0px;
     }
+    .navbar-light{
+        font-size: 14px;
+        font-weight:400;
+    }
     
 }
