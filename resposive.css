@@ -26,8 +26,21 @@
       padding: 0px;
     }
     .navbar-light{
-        font-size: 14px;
-        font-weight:400;
+      
+        font-weight: 600;
+        border-radius: 20px;
+       border: 1px  black;
+       border-style:solid;
+       backdrop-filter: blur(40px); 
+    }
+
+    #form-container{
+        width: 50%;
+        font-size: 12px;
+    }
+    .mybtn{
+        display: inline-block;
+        width: 80%;
     }
     
 }

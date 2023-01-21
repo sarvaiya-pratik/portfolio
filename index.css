@@ -8,6 +8,8 @@
     text-align: center;
    
 }
+
+/* navbar  */
 .navbar-light{
     color: rgb(204, 5, 5);
     font-weight: 500;
@@ -51,10 +53,11 @@
 /* Heading-baner */
 
 .heading-banner{
-    display: flex;
+    
     width: 35vw;
-    flex-wrap: wrap;
-    border: 2px solid black;display: inline-block;
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    display: inline-block;
     padding: 10px; 
     border-radius: 10px;
     position: absolute;
@@ -69,9 +72,55 @@
     display: flex;
     justify-content: center;
 }
-.buttons button{
-    padding: 6px;
-    background-color:darkcyan;
+.mybtn{
+    font-size: 16px;
+    padding: 4px;
+    border: none;
+    background-color:rgba(9, 155, 45, 0.815);
     color: white;
+    border-radius: 6px;
+    margin: 6px auto;
+}
+.mybtn:hover{
+    background-color:rgb(25, 87, 41);
+    color: white;
+}
+
+/* Contact Form  */
+
+#form-container{
+    width: 30vw;
+    border: 2px solid black;
     border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    display: flex;
+   margin-left: 10%;
+}
+
+.input-container input{
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    margin : 2px auto;
+}
+.input-container textarea{
+    width: 80%;
+    margin: 2px auto;
 }
