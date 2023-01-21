@@ -1,0 +1,29 @@
+@media screen and (max-width:470px) {
+    .heading-banner{
+        font-size: 18px;
+        width: 48vw;
+       margin-top: 38px;
+       padding: 3px;
+       
+    }
+    .buttons{
+      flex-direction: column;
+    }
+    .buttons button{
+        margin: 2px 0;
+        font-size: 12px;
+    }
+    .nav-item a{
+        font-size: 16px;
+        margin:1px auto;
+       
+        padding: 0px;
+        
+    }
+    .dropdown .dropdown-menu{
+        border: 1px solid black;
+      text-align: center;
+      padding: 0px;
+    }
+    
+}
