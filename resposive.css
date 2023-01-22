@@ -40,11 +40,19 @@
     #form-container{
         width: 50%;
         font-size: 12px;
-         margin-top: 38px;
+        margin-top: 38px;
     }
     .mybtn{
         display: inline-block;
         width: 80%;
+    }
+    #aboutme{
+        width: 50vw;
+    }
+
+    #footer{
+        display: block;
+        text-align: center;
     }
     
 }
